@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600&display=swap');
+
+/* Style the header section */
+header {
+    background-color: #333;
+    background-image: linear-gradient(to bottom, #333 0%, #666 100%);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    width: 80px;
+  }
+  /* Style the heading */
+  .container-fluid h1{
+    padding-left: 20px;
+    padding-top:20px;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    color:whitesmoke;
+    text-align: center;
+    text-shadow: 7px 7px 16px #e68686,
+                 7px 7px 16px #f28797,
+                 7px 7px 16px #161515;
+    
+  }  
+/* Style the logo */
+  .nasa-logo {
+    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png");
+    width: 150px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+/* Style the body*/
+  body {
+    background: linear-gradient(120deg, #ffc0cb, white,bisque);
+  }
+  
+/* Style the search form */
+#search-form {
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the search input */
+  #search-input {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the search button */
+  #search-form button {
+    text-align:  center;
+    margin-left: 1rem;
+    border-radius: 0.25rem;
+    width:200px;
+    height:60px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+  }
+
+  #search-form button:hover{
+    color:#ffc0cb;
+    background-color: #333;
+  }
+  
+  /* Style the current image container */
+  #current-image-container {
+    display: block;
+    justify-content:center;
+    margin-bottom: 1rem;
+    width:fit-content;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+  }
+  .img{
+    width: 1200px;
+    height:500px;
+  }
+  #search-history-container{
+    gap: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  /* Style the search history */
+  #search-history {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  /* #deleteicon{
+    width: 200px;
+    height:40px;
+  } */
+  
+  /* Style the search history items */
+  #search-history li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.25rem;
+    color: royalblue;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style the selected search history item */
+  #search-history li.selected {
+    background-color: #0077c2;
+    color: white;
+  }
+  
